@@ -53,23 +53,29 @@ npm run dev  # or `npm run start` / `yarn dev`
 - Redirect to respective dashboards after login
 - Client-side validation and error messages
 
-**Lisitng Page**
-- Display all the Products
-- Product search by name
-- Filter by categories
-- Filter product by rating
-- Sort product by price 
-- Click wishlist icon and add item
-- Click on Add to cart cart to add item
+**Admin Dashboard**
+The Admin Dashboard provides a complete overview of engineering resources, project distribution, and capacity tracking. It also allows the admin to manage engineers, projects, and assignments efficiently.
 
-**Detail Page**
-- View full information
+**Sidebar Menu**
+- Dashboard - Summary overview
+- Engineers - List & Add engineers
+- Projects - List & Add projects
+- Assignments - Assign engineers to projects
+- Logout - End admin session
 
-**Wishlist Page**
-- Show all wishlist items
+**Manage Engineers**
+- View all engineers
+- Add new engineers
+- Edit engineers
 
-**AddToCart Page**
-- Show all add to cart items
+**Manage Projects**
+- View all projects
+- Add new projects
+- Edit or delete existing projects
+
+**Manage Assignments**
+- Assign engineer to project with % allocation
+- Track each engineer’s utilization
 
 ## API Refrence
 
