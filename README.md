@@ -1,39 +1,42 @@
-# Anvaya CRM App
+# Engineering Resource Management System App
 
 
-The Anvaya CRM app will focus on lead management with defined steps for each lead's lifecycle. We will assign sales agents to leads and allow users to add comments or updates to each lead.
+A full-stack web application to efficiently manage engineers, projects, and assignments with dashboards, role-based access, and capacity tracking. Built using the MERN stack and enhanced with AI tools like GitHub Copilot and ChatGPT.
 
 ---
 
 ## Demo Link
 
-[Live Demo](https://anvayafrontend.vercel.app)
+[Live Demo](https://assignment-frontend-tan-nine.vercel.app)
 
 ---
 
 ## Quick Start
 ```
-git clone https://github.com/mohdrafi854/Ecommerce-Frontend.git
+git clone [https://github.com/mohdrafi854/Assignment-Frontend.git]
 cd <your-repo>
 npm install
 npm run dev  # or `npm run start` / `yarn dev`
 ```
 
 ## Technologies
-- React JS
+- React.JS
 - React Router
-- Redux
-- Node JS
-- Express JS
-- MongoDB
+- Axios
+- Node.JS
+- Express.JS
+- MongoDB with Mongoose
+- JWT Authentication
+- Bcrypt for password hashing
 ---
 
-## Demo Video
-Watch a walkthrough (5–7 minutes) of all major features of this app: [Loom Video Link]()
+## Dev Tools:
+- GitHub Copilot
+- ChatGPT (for Tailwind css, logic)
 
 ## Features
 **Home**
-- Display product categories
+- Display Login page
 
 **Lisitng Page**
 - Display all the Products
