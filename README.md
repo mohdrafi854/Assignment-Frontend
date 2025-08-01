@@ -37,6 +37,28 @@ npm run dev  # or `npm run start` / `yarn dev`
 ## Features
 **Home**
 - Display Login page
+## 🔐 Login Page
+
+A secure login page for both Admin and Engineer users with email/password authentication and role-based redirection.
+
+---
+
+### **Demo Login Credentials**
+
+| Role     | Email                      |  Password     |
+|----------|----------------------------|---------------|
+| Admin    | `uzair@gmail.com`          | `130316`   |
+| Engineer | `mohd.rafi854@gmail.com`   | `2April@1991` |
+
+---
+
+### ✨ **Key Features**
+- Role-based login (Admin / Engineer)
+- JWT token-based authentication
+- Redirect to respective dashboards after login
+- Client-side validation and error messages
+
+---
 
 **Lisitng Page**
 - Display all the Products
