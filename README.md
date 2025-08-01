@@ -35,11 +35,9 @@ npm run dev  # or `npm run start` / `yarn dev`
 - ChatGPT (for Tailwind css, logic)
 
 ## Features
-**Home**
+**Login Page**
 - Display Login page
-## 🔐 Login Page
-
-A secure login page for both Admin and Engineer users with email/password authentication and role-based redirection.
+- A secure login page for both Admin and Engineer users with email/password authentication and role-based redirection.
 
 ---
 
