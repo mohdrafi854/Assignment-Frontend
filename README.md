@@ -141,6 +141,20 @@ Sample Response:<br>
 ```
 [{_id}, ....]
 ```
+
+### **GET /api/assignments**<br>
+Display all assignment<br>
+Sample Response:<br>
+```
+[{_id, engineer, project, allocation, assignedAt}, ....]
+```
+
+### **POST /api/assignments**<br>
+Create assignment<br>
+Sample Response:<br>
+```
+[{_id, engineer, project, allocation, assignedAt}, ....]
+```
 ---
 
 ## Contact
