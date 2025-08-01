@@ -79,6 +79,20 @@ The Admin Dashboard provides a complete overview of engineering resources, proje
 
 ## API Refrence
 
+### **POST api/register**<br>
+Create user registration<br>
+Sample Response:<br>
+```
+[{_id, name, email, role, password}, ....]
+```
+
+### **POST api/login**<br>
+Create user login<br>
+Sample Response:<br>
+```
+[{_id, email, password, role}, ....]
+```
+
 ### **GET api/engineers**<br>
 Display all engineers<br>
 Sample Response:<br>
