@@ -41,7 +41,7 @@ npm run dev  # or `npm run start` / `yarn dev`
 
 ---
 
-### **Demo Login Credentials**
+**Demo Login Credentials**
 
 | Role     | Email                      |  Password     |
 |----------|----------------------------|---------------|
@@ -50,7 +50,7 @@ npm run dev  # or `npm run start` / `yarn dev`
 
 ---
 
-### ✨ **Key Features**
+**Key Features**
 - Role-based login (Admin / Engineer)
 - JWT token-based authentication
 - Redirect to respective dashboards after login
