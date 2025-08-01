@@ -79,67 +79,67 @@ The Admin Dashboard provides a complete overview of engineering resources, proje
 
 ## API Refrence
 
-### **GET /leads**<br>
-Display all leads<br>
+### **GET api/engineers**<br>
+Display all engineers<br>
 Sample Response:<br>
 ```
-[{_id, name, source, salesAgent, status, tags, timeToClose, priority}, ....]
+[{_id, name, email, role, skills, capacity, currentUtilization, createdAt}, ....]
 ```
 
-### **GET /agents**<br>
-Display all agentst<br>
+### **GET api/engineers/:id**<br>
+Display all engineer<br>
 Sample Response:<br>
 ```
-[{_id, name, email}, ....]
+[{name, email, role, skills, capacity, currentUtilization}, ....]
 ```
 
-### **GET /leads/:id/comments**<br>
-View comment<br>
+### **POST api/engineers**<br>
+Create engineer<br>
 Sample Response:<br>
 ```
-[{_id, lead, author, commentText}, ....]
+[{name, email, role, skills, capacity, currentUtilization}, ....]
 ```
 
-### **GET /report/last-week**<br>
-Display report last week<br>
+### **PUT api/engineers/:id**<br>
+Update engineer detail by id<br>
 Sample Response:<br>
 ```
-[{_id, status}, ....]
+[{name, email, role, skills, capacity, currentUtilization}, ....]
 ```
 
-### **GET /report/pipeline**<br>
-Display all leads which has status closed<br>
+### **DELETE api/engineers/:id**<br>
+Delete engineer by id<br>
 Sample Response:<br>
 ```
-[{_id, status}, ....]
+[{_id,}, ....]
 ```
 
-### **POST /leads**<br>
-Create new lead<br>
+### **GET /api/projects**<br>
+Display all project<br>
 Sample Response:<br>
 ```
-[{_id, name, source, status, tags, timeToClose, priority}, ....]
+[{_id, name, client, description, technologies, startDate, endDate, status, createdAt}, ....]
 ```
 
-### **PATCH /leads/:id**<br>
-Update leads by lead id<br>
+### **POST /api/projects**<br>
+Create Project<br>
 Sample Response:<br>
 ```
-[{_id, name, source, status, tags, timeToClose, priority}, ....]
+[{_id, name, client, description, technologies, startDate, endDate, status, createdAt}, ....]
 ```
 
-### **DELETE /leads/:id**<br>
-Delete leads by lead id<br>
+### **PUT /api/projects:id**<br>
+Update project by id<br>
+Sample Response:<br>
+```
+[name, client, description, technologies, startDate, endDate, status, createdAt}, ....]
+```
+
+### **DELETE /api/projects:id**<br>
+Project delete by id<br>
 Sample Response:<br>
 ```
 [{_id}, ....]
-```
-
-### **POST /agents**<br>
-Create new agent<br>
-Sample Response:<br>
-```
-[{_id, name, email}, ....]
 ```
 ---
 
